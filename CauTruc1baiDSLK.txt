@@ -1,0 +1,35 @@
+
+
+nhieu node lien ket voi nhau
+Cau truc cua mot bai danh sach lien ket
+
+mot node thi 2,3 thong tin:
+trong danh sach lien ket don:
+ 1 node gom: data va 1  lien ket
+ 1 con tro node Head, Tail
+ 
+Dinh nghia node
+	Dinh nghia phan Data chua du lieu
+	Dinh nghia phan contro next chua dia chi
+CreateNode: 
+	de cap phat vung nho cho con tro
+	Lay phan Data chua gia tri 
+	de cho phan con tro Next=NULL
+	
+Insert de dua 1 node vao xau/danh sach Head,Tail
+	InsertFirst: dua node vao dau danh sach 
+	InsertLast: dua node vao cuoi danh sach
+	InsertListOrder: dua node vao danh sach theo 1 thu tu
+	InsertAfter: de dua node vao sau 1 node nao do.
+	
+CreateList: de tao ra mot danh sach voi con tro Head,Tail
+	Nhap gia tri
+	Dinh nghia 1 con tro Node
+	goi ham CreateNode chua gia tri ma nguoi dung nhap vao
+	Insert chen Node vao cap phat vao danh sach
+Print: In danh sach Head,Tail ra man hinh
+main:
+	Khai bao con tro Node Head,Tail
+	Khoi tao cho danh sach rong thong bao gan Head,Tail NULL
+	Goi ham CreateList de tao ra danh sach
+	Goi Ham Print In danh sach ra man hinh
